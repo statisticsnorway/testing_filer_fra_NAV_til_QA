@@ -1,1 +1,1 @@
-hei nav
+Tall fra Nav. Mappetekstene, som denne, ligger i alias_no.txt i mappa man ser på. Denne ligger på rotnivå  
