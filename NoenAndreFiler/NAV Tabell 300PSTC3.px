@@ -6,7 +6,6 @@ SHOWDECIMALS=0;
 MATRIX="NAV300";
 SUBJECT-CODE="xx";
 SUBJECT-AREA="yy";
-DESCRIPTION="Mottakere av uføretrygd. Antall og andel av befolkningen 18-67 år, etter fylke og kjønn, 2021K1-2021K4";
 TITLE="Mottakere av uføretrygd. Antall og andel av befolkningen 18-67 år, etter region, statistikkvariabel, kjønn og måned";
 CONTENTS="Mottakere av uføretrygd. Antall og andel av befolkningen 18-67 år,";
 UNITS="antall eller prosent";
