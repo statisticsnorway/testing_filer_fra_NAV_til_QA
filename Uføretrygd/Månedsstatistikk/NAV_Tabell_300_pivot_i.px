@@ -1,0 +1,123 @@
+CHARSET="ANSI";
+AXIS-VERSION="2013";
+CODEPAGE="windows-1252";
+LANGUAGE="no";
+LANGUAGES="no","en";
+DECIMALS=1;
+SHOWDECIMALS=0;
+MATRIX="NAV300";
+AGGREGALLOWED=NO;
+SUBJECT-CODE="UF";
+SUBJECT-AREA="Uføretrygd";
+SUBJECT-AREA[en]="Disability benefit";
+DESCRIPTION="Mottakere av uføretrygd. Antall og andel av befolkningen 18-67 år, etter kjønn og region (F)";
+DESCRIPTION[en]="Recipients of disability benefit. Numbers and per cent of population, 18-67 years, by sex and region (C)";
+TITLE="Mottakere av uføretrygd. Antall og andel av befolkningen 18-67 år, etter kjønn og region (F)";
+TITLE[en]="Recipients of disability benefit. Numbers and per cent of population, 18-67 years, by sex and region (C)";
+DESCRIPTIONDEFAULT=YES;
+CONTENTS="Mottakere av uføretrygd. Antall og andel av befolkningen 18-67 år,";
+CONTENTS[en]="Recipients of disability benefit. Numbers and per cent of population, 18-67 years";
+UNITS="personer, prosent";
+UNITS[en]="persons, per cent";
+STUB="region","kjønn";
+STUB[en]="region","sex";
+HEADING="måned","statistikkvariabel";
+HEADING[en]="month","contents";
+CONTVARIABLE="statistikkvariabel";
+CONTVARIABLE[en]="contents";
+VALUES("region")="I alt","Oslo","Rogaland","Møre og Romsdal","Nordland","Viken","Innlandet",
+"Vestfold og Telemark","Agder","Vestland","Trøndelag - Trööndelage",
+"Troms og Finnmark - Romsa ja Finnmárku","Utland","Ukjent";
+VALUES[en]("region")="Total","Oslo","Rogaland","Møre og Romsdal","Nordland","Viken","Innlandet",
+"Vestfold og Telemark","Agder","Vestland","Trøndelag - Trööndelage",
+"Troms og Finnmark - Romsa ja Finnmárku","Abroad","Unknown";
+VALUES("kjønn")="Begge kjønn","Kvinner","Menn";
+VALUES[en]("sex")="Both sexes","Women","Men";
+VALUES("måned")="2021M01","2021M02","2021M03","2021M04";
+VALUES[en]("month")="2021M01","2021M02","2021M03","2021M04";
+VALUES("statistikkvariabel")="Andel mottakere av uføretrygd (prosent)","Mottakere av uføretrygd";
+VALUES[en]("contents")="Recipients of disability benefit (per cent)",
+"Recipients of disability benefit";
+TIMEVAL("måned")=TLIST(M1),"202101","202102","202103","202104";
+TIMEVAL[en]("month")=TLIST(M1),"202101","202102","202103","202104";
+CODES("region")="0","03","11","15","18","30","34","38","42","46","50","54","99","999";
+CODES[en]("region")="0","03","11","15","18","30","34","38","42","46","50","54","99","999";
+CODES("kjønn")="0","1","2";
+CODES[en]("sex")="0","1","2";
+CODES("måned")="2021M01","2021M02","2021M03","2021M04";
+CODES[en]("month")="2021M01","2021M02","2021M03","2021M04";
+CODES("statistikkvariabel")="Andel","Mottakere";
+CODES[en]("contents")="Andel","Mottakere";
+PRESTEXT("region")=2;
+PRESTEXT[en]("region")=2;
+PRESTEXT("kjønn")=1;
+PRESTEXT[en]("sex")=1;
+PRESTEXT("måned")=0;
+PRESTEXT[en]("month")=0;
+ELIMINATION("region")="I alt";
+ELIMINATION[en]("region")="Total";
+ELIMINATION("kjønn")="Begge kjønn";
+ELIMINATION[en]("sex")="Both sexes";
+PRECISION("statistikkvariabel","Andel mottakere av uføretrygd (prosent)")=1;
+PRECISION[en]("contents","Recipients of disability benefit (per cent)")=1;
+LAST-UPDATED("Andel mottakere av uføretrygd (prosent)")="20210610 08:00";
+LAST-UPDATED[en]("Recipients of disability benefit (per cent)")="20210610 08:00";
+LAST-UPDATED("Mottakere av uføretrygd")="20210610 08:00";
+LAST-UPDATED[en]("Recipients of disability benefit")="20210610 08:00";
+UNITS("Andel mottakere av uføretrygd (prosent)")="prosent";
+UNITS[en]("Recipients of disability benefit (per cent)")="per cent";
+UNITS("Mottakere av uføretrygd")="personer";
+UNITS[en]("Recipients of disability benefit")="persons";
+CONTACT("Andel mottakere av uføretrygd (prosent)")="nav.statistikk@nav.no";
+CONTACT[en]("Recipients of disability benefit (per cent)")="nav.statistikk@nav.no";
+CONTACT("Mottakere av uføretrygd")="nav.statistikk@nav.no";
+CONTACT[en]("Recipients of disability benefit")="nav.statistikk@nav.no";
+SOURCE="NAV";
+SOURCE[en]="NAV";
+VALUENOTE("statistikkvariabel","Mottakere av uføretrygd")="Vi teller 11/12 av 18-åringene og 1/12 av 67-åringene. Dette skyldes at en person ikke kan bli uføretrygdet før måneden etter fylte 18 år, og blir alderspensjonist senest måneden etter fylte 67 "
+"år.";
+VALUENOTE[en]("contents","Recipients of disability benefit")="We count 11/12 of the 18-year-olds and 1/12 of the 67-year-olds. This is because a person cannot receive disability benefits until the month after the age of 18, and becomes a retirement "
+"pensioner no later than the month after the age of 67.";
+DATA=
+10.5 358687 10.5 359092 10.5 359923 10.5 360316 
+12.5 209309 12.5 209573 12.5 210100 12.6 210336 
+8.5 149378 8.5 149519 8.5 149823 8.6 149980 
+6.2 30007 6.2 30033 6.2 30092 6.2 30120 
+7 16762 7 16780 7 16811 7 16826 
+5.4 13245 5.4 13253 5.4 13281 5.4 13294 
+8.9 27122 8.9 27140 8.9 27220 8.9 27240 
+10.8 15971 10.8 15971 10.8 15995 10.8 16011 
+7.1 11151 7.1 11169 7.1 11225 7.1 11229 
+9.9 16199 9.9 16173 9.9 16207 10 16188 
+12.8 10044 12.8 10029 12.9 10057 12.9 10055 
+7.2 6155 7.2 6144 7.2 6150 7.3 6133 
+13.9 20645 13.9 20710 14 20741 14 20737 
+16.8 12123 16.9 12174 16.9 12182 16.9 12184 
+11.1 8522 11.2 8536 11.2 8559 11.2 8553 
+9.9 77787 9.9 77886 9.9 78106 10 78266 
+12 46019 12 46081 12 46228 12 46311 
+7.9 31768 7.9 31805 8 31878 8 31955 
+13.7 31279 13.8 31359 13.8 31442 13.8 31485 
+16.4 18351 16.5 18401 16.5 18462 16.6 18488 
+11.2 12928 11.2 12958 11.2 12980 11.2 12997 
+13.3 34779 13.3 34794 13.3 34832 13.4 34843 
+16 20539 16 20540 16 20564 16 20555 
+10.8 14240 10.8 14254 10.8 14268 10.8 14288 
+14.1 27218 14.1 27286 14.2 27312 14.2 27363 
+16.7 15776 16.8 15822 16.8 15833 16.8 15849 
+11.6 11442 11.6 11464 11.7 11479 11.7 11514 
+8.7 35199 8.7 35196 8.8 35259 8.8 35292 
+10.6 20657 10.6 20665 10.6 20715 10.6 20736 
+7 14542 7 14531 7 14544 7 14556 
+10.9 32759 10.9 32829 11 33005 11.1 33100 
+13.5 19592 13.5 19639 13.6 19754 13.7 19830 
+8.5 13167 8.5 13190 8.6 13251 8.6 13270 
+11.5 17765 11.5 17769 11.5 17801 11.5 17812 
+13.8 10270 13.8 10259 13.8 10281 13.8 10286 
+9.3 7495 9.4 7510 9.4 7520 9.4 7526 
+".." 7407 ".." 7407 ".." 7400 ".." 7371 
+".." 3069 ".." 3080 ".." 3081 ".." 3069 
+".." 4338 ".." 4327 ".." 4319 ".." 4302 
+14.2 521 14.2 510 14.4 506 14.5 499 
+15.2 136 15.1 132 15.8 137 16 136 
+13.8 385 13.9 378 14 369 14 363; 
